@@ -1,0 +1,86 @@
+.write{
+    background: #f1f2f6;
+   box-sizing: border-box;
+   margin-bottom: 0;
+}
+.write-container{
+    margin-top: 90px;
+    background: white;
+    margin: inherit 50%;
+}
+.write-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.write-wrapper h3{
+    font-size: clamp(2rem,10vw,2rem);
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Khula', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.create-form{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.post-title ,.label-of-title, .label-of-body{
+    width: 100%;
+}
+.post-title{
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+.post-title  ::placeholder{
+    background-color: rgba(0,0,0,0);
+    color: black;
+}
+.post-title{
+    outline: none;
+}
+.post-pic{
+    text-decoration: none;
+}
+.label-of-img{
+  width: 100%;
+}
+.write-icon{
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+}
+.body{
+    background-color: #F8EFBA;
+    font-size: 20px;
+    border: none;
+}
+.label-of-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label-of-button button{
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background: #341f97;
+    color: aliceblue;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 5px;
+}

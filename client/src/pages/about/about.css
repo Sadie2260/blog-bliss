@@ -1,0 +1,60 @@
+.about{
+    display: block;
+}
+.about-container{
+    margin-top: 90px;
+    background-color: #dfe6e9;
+}
+.about-wrapr{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.about-top{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.evolvedsearch.co.uk/wp-content/uploads/2020/06/corinne-kutz-tMI2_-r5Nfo-unsplash-500x500.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.term{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #dfe6e9;
+    width: 100%;
+    height: auto;
+}
+.term p{
+    font-weight: 300;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    margin: 15px 100px;
+    color: #636e72;
+}
+.term h4{
+    font-size: 25px;
+    margin: 20px 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+}
+.login-section img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px 20px;
+}

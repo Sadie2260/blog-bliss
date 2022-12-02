@@ -1,0 +1,97 @@
+.user-page-container{
+    margin-top: 95px;
+}
+.user-page-cover{
+    margin:  0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    opacity: 1;
+}
+.user-page-wrapper{
+    display: flex;
+    /* align-items:flex-start; */
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 100px;
+    width: 100%;
+    height: max-content;
+    opacity: 1;
+}
+.profile-form img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px 70px;
+}
+.user-page-wrapper h3{
+    font-size: 2rem;
+    font-family: 'Cormorant Infant', serif;
+    padding: 0 10px;
+    text-align: center;
+    font-weight: 300;
+    color: #4b4b4b;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.profile-form{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 80px;
+}
+.profile-form label {
+    width: 70%;
+    margin: 30px 55px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #d63031;
+}
+.profile-form label input{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 20px;
+    outline: none;
+    border-bottom:  #fab1a0 3px solid;
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+    color: #747d8c;
+    text-align: start;
+    letter-spacing: 2px;
+}
+.i-con{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: #3742fa;
+    cursor: pointer;
+    padding:  0 12px;
+    margin-bottom: 20px;
+
+}
+.i-con :hover{
+    color: #2ed573;
+}
+.profile-button{
+    width: 30%;
+    height:50px;
+    margin-left: 280px;
+    padding:  0 15px;
+    background-color: #7158e2;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+     color: white;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 300;
+}

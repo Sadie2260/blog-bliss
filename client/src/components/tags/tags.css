@@ -1,0 +1,48 @@
+.tags-section{
+    width: 100%;
+    height: 17vh;
+    z-index: 50px;
+    margin: 25px 0px;
+}
+.tags-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+}
+.tags-container h1{
+    margin: 20px 0px;
+    font-size: 25px;
+    font-family: 'Space Grotesk', sans-serif;
+     letter-spacing: 1px;
+     line-height: 15px;
+}
+.tags-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+.tags-wrap span {
+    margin: 7px 8px;
+    display: block;
+    width: 80px;
+    background: #218c74;
+    text-align: center;
+    height: fit-content;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+.tags-wrap span a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.tags-wrap span, .tags-wrap a :hover{
+    transition: all ease-in-out 0.3s;
+    color: red;
+
+
+}

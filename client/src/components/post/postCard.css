@@ -1,0 +1,98 @@
+.Post-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-wrap: wrap;
+}
+.PostWrapper{
+    width: 380px;
+    height: fit-content;
+    margin:  20px 30px 40px 30px;
+    background:#fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(3, 3, 3), 0 0 25px rgb(24, 24, 29), 0 0 5px white;
+    cursor: pointer;
+    margin-top: 80px;
+}
+.desc-Wrapper{
+    margin: 5px 8px;
+}
+.small-data{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 8px;
+}
+.small-data span{
+    margin: 0 2px;
+}
+
+.postimg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 7px;
+    
+}
+.postimg :hover{
+    box-shadow:  1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.post-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Post-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    margin: 5px 8px;
+}
+.title{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: 'Cormorant Infant', serif;
+}
+.date , .tags , .chats{
+    color:#8395a7;
+    padding: 0px 4px;
+font-family: 'Nunito Sans', sans-serif;
+}
+.desc{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    color: #2d3436;
+    line-height: 15px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-align: center;
+}
+.button{
+   width: 150px;
+   height: 40px;
+   border-radius: 10px;
+   border: rgb(185, 31, 31) solid 2px;
+   background-color:#e74c3c ;
+   color: #fff;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-size: 15px;
+   margin: 0px 0px;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+.button  :hover{
+color: #8395a7;
+}
+
+
+
+
