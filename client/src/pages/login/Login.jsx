@@ -21,30 +21,6 @@ const Login=()=>{
       dispatch({ type: "LOGIN_FAILURE" });
     }
   };
-    // const [inputs, setInputs]=useState({
-    //     email:"",
-    //     password:"",
-
-    // })
-    // const navigate= useNavigate()
-    // const [ error , setError]=useState(null)
-    // const { login, isFetching, dispatch }= useContext(AuthContext);
-    // const handleChange= e =>{
-    //     setInputs(prev=>({...prev, [e.target.name]: e.target.value }))
-    // } 
-    // const handleSubmit = async e =>{
-    //     e.preventDefault()
-    //     dispatch({type:"LOGIN_START"})
-    //     try{
-    //     await login(inputs)
-    //     navigate("/");
-    //     dispatch({type: "LOGIN_SUCCESSFUL"})
-    // }
-    //     catch(err){
-    //         setError(err.response.data)
-    //         dispatch({type:"LOGIN_FAILURE"})
-    //     }
-    // }
     return(
         <>
     <div className="container">
